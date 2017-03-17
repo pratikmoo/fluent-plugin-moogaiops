@@ -1,4 +1,4 @@
-# Moogaiops
+# fluent-plugin-moogaiops
 
 This GEM will add an output plugin for Moog AIOps.
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Example to add to your fulend.conf
+Example matcher to add to your fulend.conf
 
 ```
 <match system.** *.access.* error.**>
@@ -32,22 +32,22 @@ Example to add to your fulend.conf
   severity 3
 </match>
 ```
- uri
+ *uri*
  Is the published endpoint accepting fluent events see your integrations and select the fluent tile to install.
 
- auth
+ *auth*
  Is the username and password provided by Moogaiops when you install the REST connector for fluent
 
- sourcetype
+ *sourcetype*
  Some text to define the manager attribute in the event
 
- location
+ *location*
  Some text to identify the agent_location in the events
 
- severity
+ *severity*
  A default severity (0-5) for the events produced by this matcher
 
-The Gem will also add the hostname where the matcher is running and some other default information. The tag will be used to populate the class and type, all three are used in the signature.
+The Gem will also add the **hostname** where the matcher is running and some other default information. The *tag* will be used to populate the **class** and **type**, all three are used in the signature.
 
 ## Contributing
 
