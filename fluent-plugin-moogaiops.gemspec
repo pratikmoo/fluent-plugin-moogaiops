@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.1.0"
 
   spec.add_runtime_dependency "fluentd", [">= 0.12", "< 0.14"]
-  spec.add_runtime_dependency 'restclient', "~> 2.0"
+  spec.add_runtime_dependency 'rest-client', "~> 2.0"
   spec.add_runtime_dependency 'json', "~> 2.0"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
