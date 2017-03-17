@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Send Fluentd output to the Moog AIOps REST LAM}
   spec.description   = %q{Send Fluentd output to the Moog AIOps REST LAM}
-  spec.homepage      = "www.moogsoft.com"
+  spec.homepage      = "https://github.com/moog-stephen/fluent-plugin-moogaiops"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($\)
