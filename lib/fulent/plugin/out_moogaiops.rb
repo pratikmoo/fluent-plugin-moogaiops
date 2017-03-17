@@ -1,8 +1,9 @@
 require 'fluent/output'
-require 'rest-client'
-require 'json'
 
 module Fluent
+  require 'rest-client'
+  require 'json'
+  
   class MoogAIOpsOutput < BufferedOutput
     # First, register the plugin. NAME is the name of this plugin
     # and identifies the plugin in the configuration file.
