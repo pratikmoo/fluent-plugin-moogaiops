@@ -1,6 +1,6 @@
 # fluent-plugin-moogaiops
 
-This GEM will add an output plugin for Moog AIOps.
+This GEM will add an output plugin for Moogsoft AIOps.
 
 ## Installation
 
